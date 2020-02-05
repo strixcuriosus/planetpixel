@@ -22,6 +22,11 @@ setup(name='planetpixel',
       author_email='hello@geert.io',
       license='BSD',
       packages=['planetpixel'],
+      install_requires=[
+          'planet',
+          'rasterio',
+          'seaborn',
+        ],
       include_package_data=True,
       classifiers=[
           "Development Status :: 5 - Production/Stable",
